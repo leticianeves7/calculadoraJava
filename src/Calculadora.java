@@ -1,7 +1,21 @@
 import java.util.Scanner; //importando a classe Scanner do pacote java.util,
 // que nos permite ler entradas do usuário no console.
+/**
+ * A Calculadora realiza operações matemáticas entre números inteiros.
+ * Leia atentamente a documentação desta classes
+ * para desfrutar dos recursos oferecidos pelo autor.
+ *
+ * @author  Leticia Neves
+ * @version 1.0
+ * @since   3/6/24
+ */
 
 public class Calculadora {
+    /**
+     * Este método é utilizado para somar dois números inteiros.
+     * @param numeroUm este é o primeiro parâmetro do método,
+     * @param numeroDois este é o segundo parâmetro do método.
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean continuar = true;
